@@ -5,12 +5,13 @@ const Layout = ({ children }) => {
     <>
       <style jsx global>{`
         body {
-          background-color: rgba(31, 41, 55);
+          background-color: rgba(17, 24, 39);
           opacity: 1;
+          color: white;
         }
-      `}</style>{' '}
+      `}</style>
       <Navbar />
-      <div className="container mx-auto px-40 ">
+      <div className="container mx-auto md:px-40">
         <main>{children}</main>
       </div>
     </>

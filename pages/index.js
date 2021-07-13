@@ -1,10 +1,12 @@
 // components
-import Navbar from '../components/Navbar';
+import ShortBio from '../components/ShortBio';
+import Tools from '../components/Tools';
 
 export default function Home() {
   return (
     <>
-      <h1>Index page</h1>
+      <ShortBio />
+      <Tools />
     </>
   );
 }
