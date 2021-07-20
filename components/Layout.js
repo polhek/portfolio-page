@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
         }
       `}</style>
       <Navbar />
-      <div className="container mx-auto md:px-40">
+      <div className="container mx-auto  md:px-40">
         <main>{children}</main>
       </div>
     </>
