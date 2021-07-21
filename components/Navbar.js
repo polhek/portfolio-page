@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <nav className="font-sans bg-gray-900 p-3 py-5 text-white">
-      <div className="container mx-auto md:px-44 px-5 flex flex-wrap justify-between items-center">
+      <div className="container mx-auto  px-5 flex flex-wrap justify-between items-center">
         <h1 className="font-semibold text-2xl text-gray-400">Žiga Grošelj</h1>
         <button
           onClick={openMenu}

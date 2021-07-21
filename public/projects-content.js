@@ -31,22 +31,18 @@ const projects = [
     github: 'https://github.com/polhek/fake-social-network-api',
   },
   {
-    //! tuki sm konceu
-    name: 'The Odinbook',
-    imgURL: '/images/odinbook.png',
+    name: 'The Weather App',
+    imgURL: '/images/weather.png',
     description:
-      'The Odinbook is clone of social network website, made with NodeJS and React as a frontend.',
+      'The Weather App is a shows weather for searched location, weather data is accessed via Open Weather Map API.',
     stack: [
-      'devicon-typescript-plain colored',
+      'devicon-javascript-plain colored',
       'devicon-html5-plain colored',
       'devicon-css3-plain colored',
       'devicon-react-plain colored',
-      'devicon-redux-original colored',
-      'devicon-tailwindcss-plain colored',
-      'devicon-nodejs-plain colored',
-      'devicon-express-original colored',
-      'devicon-mongodb-plain-wordmark colored',
     ],
-    github: 'https://github.com/polhek/fake-social-network-api',
+    github: 'https://github.com/polhek/weather-app',
   },
 ];
+
+export { projects };

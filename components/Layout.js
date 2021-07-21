@@ -5,15 +5,14 @@ const Layout = ({ children }) => {
     <>
       <style jsx global>{`
         body {
-          background-color: rgba(17, 24, 39);
+          background-color: rgba(55, 65, 81);
           opacity: 1;
           color: white;
         }
       `}</style>
       <Navbar />
-      <div className="container mx-auto  md:px-40">
-        <main>{children}</main>
-      </div>
+
+      <main className="flex flex-col justify-around">{children}</main>
     </>
   );
 };

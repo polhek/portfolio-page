@@ -10,7 +10,7 @@ const ShortBio = () => {
             <br className="hidden lg:inline-block" />
             front-end & back-end developer.
           </h1>
-          <p className="mb-8 leading-relaxed">
+          <p className="mb-8 leading-relaxed text-gray-400">
             After professionally racing bikes for more than 5 years, racing
             across Europe and China, it was time for a career change. That is
             why 2 years ago I started to teach myself about programming and web
