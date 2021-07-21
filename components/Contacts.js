@@ -1,6 +1,6 @@
 const Contacts = () => {
   return (
-    <footer className=" w-full min-h-screen   container my-24 mx-auto  ">
+    <footer className=" w-screen    my-24   ">
       <div className="h-full w-full bg-black ">dsfd</div>
     </footer>
   );

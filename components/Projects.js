@@ -3,7 +3,7 @@ import { projects } from '../public/projects-content';
 
 const Projects = () => {
   return (
-    <section className="container w-full min-h-screen   container my-24 mx-auto px-5 ">
+    <section className="container w-screen min-h-screen   container my-24 mx-auto px-5 ">
       <h2 className="title-font sm:text-4xl text-3xl  font-medium p-2 text-white">
         Projects
       </h2>

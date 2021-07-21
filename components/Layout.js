@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
       `}</style>
       <Navbar />
 
-      <main className="flex flex-col justify-around">{children}</main>
+      <main>{children}</main>
     </>
   );
 };
