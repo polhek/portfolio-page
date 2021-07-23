@@ -5,14 +5,13 @@ const Layout = ({ children }) => {
     <>
       <style jsx global>{`
         body {
-          background-color: rgba(55, 65, 81);
+          background-color: #0c4a6e;
           opacity: 1;
           color: white;
         }
       `}</style>
       <Navbar />
-
-      <main className="min-h-screen">{children}</main>
+      <main className="min-h-screen font-oxanium">{children}</main>
     </>
   );
 };

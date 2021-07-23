@@ -3,7 +3,7 @@ import { frontend, backend, miscellaneous } from '../public/content.js';
 
 const Tools = () => {
   return (
-    <div className="bg-gray-800 pb-20 min-h-screen ">
+    <div className="bg-gray-800 pb-20 min-h-screen bg-sky-800 ">
       <section className="container  w-full container  pt-14 mx-auto px-5 block">
         <h2 className="title-font sm:text-4xl text-3xl  font-medium p-2 text-white">
           Tools & Skills

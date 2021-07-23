@@ -1,36 +1,56 @@
 // dependencies
+import { FaTwitter, FaLinkedin, FaEnvelope, FaGithub } from 'react-icons/fa';
 
 const ShortBio = () => {
   return (
-    <section className="text-gray-600 body-font min-h-screen ">
-      <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            I am Žiga Grošelj,
-            <br className="hidden lg:inline-block" />
-            front-end & back-end developer.
-          </h1>
-          <p className="mb-8 leading-relaxed text-gray-400">
-            After professionally racing bikes for more than 5 years, racing
-            across Europe and China, it was time for a career change. That is
-            why 2 years ago I started to teach myself about programming and web
-            development. Web development and programming gives me satisfaction
-            and enjoyment in solving problems.
+    <section className="text-gray-600 body-font min-h-screen bg-sky-900">
+      <div className="container mx-auto mt-10 flex px-5 py-24 md:flex-row h-screen justify-start md:justify-center flex-col xl:items-center md:-mt-20  ">
+        <div className="flex flex-col  text-left items-start px-10 gap-4 lg:w-1/3">
+          <h2 className="text-lg  flex items-center gap-2 ">
+            <img
+              class="inline object-cover w-16 h-16 mr-2 rounded-full"
+              src="https://images.pexels.com/photos/2589653/pexels-photo-2589653.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+              alt="Profile image"
+            />
+            <span className="opacity-80">Žiga Grošelj</span>
+          </h2>
+          <h1 className="text-7xl font-bold">Fullstack Developer</h1>
+          <p className="text-xl">
+            Passionate self-taught developer from Slovenia.
           </p>
-          <div className="flex justify-center">
-            <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-              Tools & Skills
-            </button>
-            <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
-              Contact Me
-            </button>
+          <div className="flex justify-between w-full">
+            <div className="flex flex-col gap-4">
+              <a
+                href=""
+                className="bg-red-500 border-red-500 border-2 p-3 px-7 rounded text-lg text-center hover:bg-transparent"
+              >
+                Tools & Skills
+              </a>
+              <a
+                href=""
+                className="border-red-500 border-2 p-3 px-7 rounded text-lg text-center hover:bg-red-500"
+              >
+                Projects
+              </a>
+            </div>
+            <div className="flex flex-col justify-between mr-12">
+              <a href="https://www.linkedin.com/in/%C5%BEiga-gro%C5%A1elj-932945b6/">
+                <FaLinkedin className="transform hover:scale-105 h-8 w-8 opacity-80  hover:opacity-100" />
+              </a>
+              <a href="https://twitter.com/zigagroselj">
+                <FaTwitter className="transform hover:scale-105 h-8 w-8 opacity-80  hover:opacity-100" />
+              </a>
+              <a href="https://github.com/polhek/">
+                <FaGithub className="transform hover:scale-105 h-8 w-8 opacity-80  hover:opacity-100" />
+              </a>
+            </div>
           </div>
         </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div className="hidden xl:block lg:w-1/3 ">
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="https://dummyimage.com/720x600"
+            src="/images/programmer.png"
           />
         </div>
       </div>

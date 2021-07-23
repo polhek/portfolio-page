@@ -1,5 +1,6 @@
 // dependencies
-import 'tailwindcss/tailwind.css';
+// import 'tailwindcss/tailwind.css';
+import '../styles/globals.css';
 import { DefaultSeo } from 'next-seo';
 import Head from 'next/head';
 

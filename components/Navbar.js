@@ -8,12 +8,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="font-sans bg-gray-900 p-3 py-5 text-white">
+    <nav className=" p-3 py-5 text-black font-oxanium">
       <div className="container mx-auto  px-5 flex flex-wrap justify-between items-center">
-        <h1 className="font-semibold text-2xl text-gray-400">Žiga Grošelj</h1>
+        <h1 className="font-semibold text-3xl ">Žiga Grošelj</h1>
         <button
           onClick={openMenu}
-          className="inline-flex p-3 hover:bg-red-600 rounded lg:hidden text-white ml-auto hover:text-white outline-none"
+          className="inline-flex p-3 hover:bg-red-600 rounded lg:hidden text-black ml-auto  outline-none"
         >
           <svg
             className="w-6 h-6"
@@ -33,31 +33,31 @@ const Navbar = () => {
         <div
           className={`${
             active ? '' : 'hidden'
-          }   w-full lg:flex gap-4 lg:w-auto text-gray-400 pt-5 md:pt-0 inline-flex flex-col lg:flex-row `}
+          }   w-full lg:flex gap-4 lg:w-auto text-black pt-5 md:pt-0 inline-flex flex-col lg:flex-row `}
         >
           <a
-            className="hover:text-white  text-xl
-             hover:pb-0 border-b-2 border-transparent hover:border-white"
+            className="hover:text-black text-2xl
+            hover:border-b-2 border-transparent hover:border-white"
             href=""
           >
             About
           </a>
           <a
-            className="hover:text-white text-xl
-             hover:border-b-2 border-transparent hover:border-white"
+            className="hover:text-white text-2xl
+             border-b-2 border-transparent hover:border-white"
             href=""
           >
             Tools & Skills
           </a>
           <a
-            className="hover:text-white text-xl
-             hover:border-b-2 border-transparent hover:border-white"
+            className="hover:text-black text-2xl
+             border-b-2 border-transparent hover:border-white"
             href=""
           >
             Projects
           </a>
           <a
-            className="hover:text-white text-xl
+            className="hover:text-black text-2xl
              hover:border-b-2 border-transparent hover:border-white"
             href=""
           >
