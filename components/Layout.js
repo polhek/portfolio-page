@@ -5,7 +5,7 @@ const Layout = ({ children }) => {
     <>
       <style jsx global>{`
         body {
-          background-color: #0c4a6e;
+          background-color: rgba(3, 105, 161);
           opacity: 1;
           color: white;
         }

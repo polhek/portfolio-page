@@ -3,7 +3,7 @@ const projects = [
     name: 'Battleships Game',
     imgURL: '/images/battleships.png',
     description:
-      'Battleships game made using vannila Javascript, using TDD and OOP approach.',
+      'Battleships game made using vanilla Javascript, using TDD and OOP approach.',
     stack: [
       'devicon-javascript-plain colored',
       'devicon-html5-plain colored',
@@ -16,7 +16,7 @@ const projects = [
     name: 'The Odinbook',
     imgURL: '/images/odinbook.png',
     description:
-      'The Odinbook is clone of social network website, made with NodeJS and React as a frontend.',
+      'The Odinbook is clone of social network website, made with NodeJS and React as a front-end.',
     stack: [
       'devicon-typescript-plain colored',
       'devicon-html5-plain colored',
@@ -34,7 +34,7 @@ const projects = [
     name: 'The Weather App',
     imgURL: '/images/weather.png',
     description:
-      'The Weather App is a shows weather for searched location, weather data is accessed via Open Weather Map API.',
+      'The Weather App is a shows weather for searching location, weather data are accessed via Open Weather Map API.',
     stack: [
       'devicon-javascript-plain colored',
       'devicon-html5-plain colored',

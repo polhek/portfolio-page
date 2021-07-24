@@ -3,12 +3,15 @@ import { FaTwitter, FaLinkedin, FaEnvelope, FaGithub } from 'react-icons/fa';
 
 const ShortBio = () => {
   return (
-    <section className="text-gray-600 body-font min-h-screen bg-sky-900">
+    <section
+      id="about"
+      className="text-gray-600 body-font min-h-screen  bg-sky-700"
+    >
       <div className="container mx-auto mt-10 flex px-5 py-24 md:flex-row h-screen justify-start md:justify-center flex-col xl:items-center md:-mt-20  ">
         <div className="flex flex-col  text-left items-start px-10 gap-4 lg:w-1/3">
           <h2 className="text-lg  flex items-center gap-2 ">
             <img
-              class="inline object-cover w-16 h-16 mr-2 rounded-full"
+              className="inline object-cover w-16 h-16 mr-2 rounded-full"
               src="https://images.pexels.com/photos/2589653/pexels-photo-2589653.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
               alt="Profile image"
             />

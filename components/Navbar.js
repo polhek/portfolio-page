@@ -1,3 +1,4 @@
+import { Link, animateScroll as scroll } from 'react-scroll';
 import { useState } from 'react';
 
 const Navbar = () => {
@@ -8,12 +9,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className=" p-3 py-5 text-black font-oxanium">
-      <div className="container mx-auto  px-5 flex flex-wrap justify-between items-center">
+    <nav className="p-3 py-5 fixed  top-0 w-screen font-oxanium bg-yellow-400 opacity-95">
+      <div className="container mx-auto  px-5 flex flex-wrap justify-between text-sky-800 items-center ">
         <h1 className="font-semibold text-3xl ">Žiga Grošelj</h1>
         <button
           onClick={openMenu}
-          className="inline-flex p-3 hover:bg-red-600 rounded lg:hidden text-black ml-auto  outline-none"
+          className="inline-flex p-3 hover:bg-red-600 rounded lg:hidden  ml-auto  outline-none"
         >
           <svg
             className="w-6 h-6"
@@ -33,36 +34,57 @@ const Navbar = () => {
         <div
           className={`${
             active ? '' : 'hidden'
-          }   w-full lg:flex gap-4 lg:w-auto text-black pt-5 md:pt-0 inline-flex flex-col lg:flex-row `}
+          }   w-full lg:flex gap-4 lg:w-auto  pt-5 md:pt-0 inline-flex flex-col lg:flex-row font-medium `}
         >
-          <a
-            className="hover:text-black text-2xl
-            hover:border-b-2 border-transparent hover:border-white"
-            href=""
+          <Link
+            to="about"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className="text-2xl
+            border-b-2 border-transparent hover:border-sky-800 cursor"
           >
             About
-          </a>
-          <a
-            className="hover:text-white text-2xl
-             border-b-2 border-transparent hover:border-white"
-            href=""
+          </Link>
+          <Link
+            to="tools"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className=" text-2xl
+            border-b-2 border-transparent hover:border-sky-800 cursor"
           >
             Tools & Skills
-          </a>
-          <a
-            className="hover:text-black text-2xl
-             border-b-2 border-transparent hover:border-white"
-            href=""
+          </Link>
+
+          <Link
+            to="projects"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className=" text-2xl
+            border-b-2 border-transparent hover:border-sky-800 cursor"
           >
             Projects
-          </a>
-          <a
-            className="hover:text-black text-2xl
-             hover:border-b-2 border-transparent hover:border-white"
-            href=""
+          </Link>
+          <Link
+            to="contacts"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className=" text-2xl
+            border-b-2 border-transparent hover:border-sky-800 cursor"
           >
             Contact
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
