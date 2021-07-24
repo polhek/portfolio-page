@@ -22,7 +22,6 @@ const Contacts = () => {
     document.addEventListener('scroll', (event) => {
       let position = window.scrollY;
       setPosition(position);
-      console.log(position);
     });
   }, []);
   return (
