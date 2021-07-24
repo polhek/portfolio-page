@@ -1,5 +1,6 @@
 // dependencies
 import { FaTwitter, FaLinkedin, FaEnvelope, FaGithub } from 'react-icons/fa';
+import { Link, animateScroll as scroll } from 'react-scroll';
 
 const ShortBio = () => {
   return (
@@ -23,18 +24,28 @@ const ShortBio = () => {
           </p>
           <div className="flex justify-between w-full">
             <div className="flex flex-col gap-4">
-              <a
-                href=""
-                className="bg-red-500 border-red-500 border-2 p-3 px-7 rounded text-lg text-center hover:bg-transparent"
+              <Link
+                to="tools"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="bg-red-500 border-red-500 border-2 p-3 px-7 rounded text-lg text-center hover:bg-transparent cursor-pointer"
               >
                 Tools & Skills
-              </a>
-              <a
-                href=""
-                className="border-red-500 border-2 p-3 px-7 rounded text-lg text-center hover:bg-red-500"
+              </Link>
+              <Link
+                to="projects"
+                activeClass="active"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="border-red-500 border-2 p-3 px-7 rounded text-lg text-center hover:bg-red-500 cursor-pointer"
               >
                 Projects
-              </a>
+              </Link>
             </div>
             <div className="flex flex-col justify-between mr-12">
               <a href="https://www.linkedin.com/in/%C5%BEiga-gro%C5%A1elj-932945b6/">
