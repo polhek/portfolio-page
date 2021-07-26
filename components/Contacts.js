@@ -24,12 +24,10 @@ const Contacts = () => {
       setPosition(position);
     });
   }, []);
+
   return (
     <>
-      <footer
-        id="contacts"
-        className="w-full min-h-56 bg-yellow-400 overflow-hidden"
-      >
+      <footer id="contacts" className="min-w-screen  min-h-56 bg-yellow-400 ">
         <div className="container mx-auto px-5 py-14 text-center">
           <h2 className="title-font sm:text-4xl text-3xl  font-semibold p-2 text-sky-700">
             Contact me!

@@ -9,12 +9,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="p-3 py-5 fixed  top-0 w-screen font-oxanium bg-yellow-400 opacity-95">
+    <nav className="p-3 py-5 fixed left-0 right-0  top-0 min-w-screen font-oxanium bg-yellow-400 opacity-95">
       <div className="container mx-auto  px-5 flex flex-wrap justify-between text-sky-800 items-center ">
         <h1 className="font-semibold text-3xl ">Žiga Grošelj</h1>
         <button
           onClick={openMenu}
-          className="inline-flex p-3 hover:bg-red-600 rounded lg:hidden  ml-auto  outline-none"
+          className="inline-flex p-3  rounded lg:hidden  ml-auto  outline-none"
         >
           <svg
             className="w-6 h-6"

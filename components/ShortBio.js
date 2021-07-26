@@ -9,7 +9,7 @@ const ShortBio = () => {
       className="text-gray-600 body-font min-h-screen  bg-sky-700"
     >
       <div className="container mx-auto mt-10 flex px-5 py-24 md:flex-row h-screen justify-start md:justify-center flex-col xl:items-center md:-mt-20  ">
-        <div className="flex flex-col  text-left items-start px-10 gap-4 lg:w-1/3">
+        <div className="flex flex-col w-full text-left items-start px-10 gap-4 lg:w-2/3 xl:w-1/3">
           <h2 className="text-lg  flex items-center gap-2 ">
             <img
               className="inline object-cover w-16 h-16 mr-2 rounded-full"
@@ -18,7 +18,9 @@ const ShortBio = () => {
             />
             <span className="opacity-80">Žiga Grošelj</span>
           </h2>
-          <h1 className="text-7xl font-bold">Fullstack Developer</h1>
+          <h1 className=" text-6xl md:text-7xl font-bold">
+            Fullstack Developer
+          </h1>
           <p className="text-xl">
             Passionate self-taught developer from Slovenia.
           </p>
@@ -47,7 +49,7 @@ const ShortBio = () => {
                 Projects
               </Link>
             </div>
-            <div className="flex flex-col justify-between mr-12">
+            <div className="flex flex-col justify-between lg:mr-14">
               <a href="https://www.linkedin.com/in/%C5%BEiga-gro%C5%A1elj-932945b6/">
                 <FaLinkedin className="transform hover:scale-105 h-8 w-8 opacity-80  hover:opacity-100" />
               </a>
