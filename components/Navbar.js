@@ -44,7 +44,7 @@ const Navbar = () => {
             offset={-70}
             duration={500}
             className="text-2xl
-            border-b-2 border-transparent hover:border-sky-800 cursor-pointer"
+            border-b-2 border-transparent  cursor-pointer"
           >
             About
           </Link>
@@ -56,7 +56,7 @@ const Navbar = () => {
             offset={-70}
             duration={500}
             className=" text-2xl
-            border-b-2 border-transparent hover:border-sky-800 cursor-pointer"
+            border-b-2 border-transparent  cursor-pointer"
           >
             Tools & Skills
           </Link>
@@ -69,7 +69,7 @@ const Navbar = () => {
             offset={-70}
             duration={500}
             className=" text-2xl
-            border-b-2 border-transparent hover:border-sky-800 cursor-pointer"
+            border-b-2 border-transparent  cursor-pointer"
           >
             Projects
           </Link>
@@ -81,7 +81,7 @@ const Navbar = () => {
             offset={-70}
             duration={500}
             className=" text-2xl
-            border-b-2 border-transparent hover:border-sky-800 cursor-pointer"
+            border-b-2 border-transparent  cursor-pointer"
           >
             Contact
           </Link>

@@ -28,7 +28,7 @@ const Tools = () => {
           <h3 className="font-medium sm:text-3xl text-2xl my-5 font-small  text-white">
             Back-End
           </h3>
-          <div className="p-4 flex flex-wrap justify-center gap-6">
+          <div className="p-4 flex flex-wrap justify-center  gap-6">
             {backend.map((language) => {
               return (
                 <LanguageIcon
