@@ -57,7 +57,7 @@ const Contacts = () => {
       {scrollPosition > 500 ? (
         <button
           onClick={scrollToTop}
-          className="fixed flex items-center justify-center bottom-0 right-10 bg-red-500 hover:bg-red-600 h-16 w-16 opacity-95 rounded-t cursor-pointer"
+          className="fixed flex items-center justify-center bottom-0 right-7 bg-red-500 hover:bg-red-600 h-16 w-16 opacity-95 rounded-t cursor-pointer"
         >
           <FaArrowUp className="h-7 w-7 relative opacity-90 hover:opacity-100 transition-all top-0 hover:-top-2" />
         </button>
