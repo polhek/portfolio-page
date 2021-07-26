@@ -31,10 +31,10 @@ const frontend = [
     name: 'NextJS',
     devIcon: 'devicon-nextjs-plain colored',
   },
-  {
-    name: 'Redux',
-    devIcon: 'devicon-redux-original colored',
-  },
+  // {
+  //   name: 'Redux',
+  //   devIcon: 'devicon-redux-original colored',
+  // },
 ];
 
 const backend = [
@@ -69,14 +69,14 @@ const miscellaneous = [
     name: 'npm',
     devIcon: 'devicon-npm-original-wordmark colored',
   },
-  {
-    name: 'webpack',
-    devIcon: 'devicon-webpack-plain colored',
-  },
-  {
-    name: 'Heroku',
-    devIcon: 'devicon-heroku-plain colored',
-  },
+  // {
+  //   name: 'webpack',
+  //   devIcon: 'devicon-webpack-plain colored',
+  // },
+  // {
+  //   name: 'Heroku',
+  //   devIcon: 'devicon-heroku-plain colored',
+  // },
   {
     name: 'Github',
     devIcon: 'devicon-github-original colored',
@@ -85,14 +85,14 @@ const miscellaneous = [
     name: 'Jasmine',
     devIcon: 'devicon-jasmine-plain colored',
   },
-  {
-    name: 'Firebase',
-    devIcon: 'devicon-firebase-plain colored',
-  },
-  {
-    name: 'AWS',
-    devIcon: 'devicon-amazonwebservices-plain-wordmark colored',
-  },
+  // {
+  //   name: 'Firebase',
+  //   devIcon: 'devicon-firebase-plain colored',
+  // },
+  // {
+  //   name: 'AWS',
+  //   devIcon: 'devicon-amazonwebservices-plain-wordmark colored',
+  // },
 ];
 
 export { frontend, backend, miscellaneous };

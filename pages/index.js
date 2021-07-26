@@ -8,8 +8,8 @@ export default function Home() {
   return (
     <>
       <ShortBio />
-      <Tools />
       <Projects />
+      <Tools />
       <Contacts />
     </>
   );

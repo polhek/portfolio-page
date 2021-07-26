@@ -47,17 +47,6 @@ const Navbar = () => {
           >
             About
           </Link>
-          <Link
-            to="tools"
-            activeClass="active"
-            spy={true}
-            smooth={true}
-            duration={500}
-            className=" text-2xl
-            border-b-2 border-transparent  cursor-pointer"
-          >
-            Tools & Skills
-          </Link>
 
           <Link
             to="projects"
@@ -69,6 +58,17 @@ const Navbar = () => {
             border-b-2 border-transparent  cursor-pointer"
           >
             Projects
+          </Link>
+          <Link
+            to="tools"
+            activeClass="active"
+            spy={true}
+            smooth={true}
+            duration={500}
+            className=" text-2xl
+            border-b-2 border-transparent  cursor-pointer"
+          >
+            Tools & Skills
           </Link>
           <Link
             to="contacts"
