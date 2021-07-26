@@ -41,7 +41,7 @@ const Navbar = () => {
             activeClass="active"
             spy={true}
             smooth={true}
-            offset={-30}
+            offset={50}
             duration={500}
             className="text-2xl
             border-b-2 border-transparent  cursor-pointer"
@@ -53,7 +53,7 @@ const Navbar = () => {
             activeClass="active"
             spy={true}
             smooth={true}
-            offset={-30}
+            offset={50}
             duration={500}
             className=" text-2xl
             border-b-2 border-transparent  cursor-pointer"
@@ -66,7 +66,7 @@ const Navbar = () => {
             activeClass="active"
             spy={true}
             smooth={true}
-            offset={-30}
+            offset={50}
             duration={500}
             className=" text-2xl
             border-b-2 border-transparent  cursor-pointer"
@@ -78,7 +78,7 @@ const Navbar = () => {
             activeClass="active"
             spy={true}
             smooth={true}
-            offset={20}
+            offset={0}
             duration={500}
             className=" text-2xl
             border-b-2 border-transparent  cursor-pointer"
