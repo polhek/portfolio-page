@@ -25,7 +25,7 @@ const projects = [
       'devicon-redux-original colored',
       'devicon-tailwindcss-plain colored',
       'devicon-nodejs-plain colored',
-      'devicon-express-original colored',
+      'devicon-express-original',
       'devicon-mongodb-plain-wordmark colored',
     ],
     github: 'https://github.com/polhek/fake-social-network-api',
