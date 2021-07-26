@@ -8,7 +8,7 @@ const ShortBio = () => {
       id="about"
       className="text-gray-600 body-font min-h-screen  bg-sky-700"
     >
-      <div className="container mx-auto mt-10 flex px-5 py-24 md:flex-row h-screen justify-start md:justify-center flex-col xl:items-center md:-mt-20  ">
+      <div className="container mx-auto mt-10 flex px-5 py-24 md:flex-row h-screen justify-start md:justify-center flex-col xl:items-center   ">
         <div className="flex flex-col w-full text-left items-start px-10 gap-4 lg:w-2/3 xl:w-1/3">
           <h2 className="text-lg  flex items-center gap-2 ">
             <img
