@@ -78,7 +78,7 @@ const Navbar = () => {
             activeClass="active"
             spy={true}
             smooth={true}
-            offset={0}
+            offset={20}
             duration={500}
             className=" text-2xl
             border-b-2 border-transparent  cursor-pointer"
