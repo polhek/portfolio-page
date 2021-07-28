@@ -18,6 +18,7 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
         />
+        lang="en"
       </Head>
       <DefaultSeo {...SEO} />
       <Layout>

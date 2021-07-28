@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="p-3 py-5 fixed left-0 right-0  top-0 min-w-screen font-oxanium bg-yellow-400 opacity-95">
+    <nav className="p-3 py-5 fixed left-0 right-0  top-0 min-w-screen font-oxanium bg-yellow-400 opacity-95 z-50">
       <div className="container mx-auto  px-5 flex flex-wrap justify-between text-sky-800 items-center ">
         <h2 className="font-semibold text-3xl ">Žiga Grošelj</h2>
         <button
