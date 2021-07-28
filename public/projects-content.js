@@ -11,6 +11,7 @@ const projects = [
       'devicon-jasmine-plain colored',
     ],
     github: 'https://github.com/polhek/battleships-game',
+    githubLive: 'https://polhek.github.io/battleships-game/',
   },
   {
     name: 'The Odinbook',
@@ -29,6 +30,7 @@ const projects = [
       'devicon-mongodb-plain-wordmark colored',
     ],
     github: 'https://github.com/polhek/fake-social-network-api',
+    githubLive: 'https://polhek.github.io/fake-social-network-front/#/',
   },
   {
     name: 'The Weather App',
@@ -42,6 +44,7 @@ const projects = [
       'devicon-react-plain colored',
     ],
     github: 'https://github.com/polhek/weather-app',
+    githubLive: 'https://polhek.github.io/weather-app/',
   },
 ];
 

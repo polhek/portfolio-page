@@ -33,22 +33,32 @@ const Contacts = () => {
             Contact me!
           </h2>
           <div className="flex justify-center items-center gap-5 md:gap-10 mt-5 text-sky-700">
-            <a href="mailto:ziga.groselj@gmail.com" className="cursor-pointer">
+            <a
+              href="mailto:ziga.groselj@gmail.com"
+              className="cursor-pointer"
+              aria-label="mail-me"
+            >
               <FaEnvelope className="transform hover:scale-125 h-8 w-8 hover:text-sky-800" />
             </a>
             <a
               href="https://www.linkedin.com/in/%C5%BEiga-gro%C5%A1elj-932945b6/"
               className="cursor-pointer"
+              aria-label="linkedIn"
             >
               <FaLinkedin className="transform hover:scale-125 h-8 w-8 hover:text-sky-800" />
             </a>
             <a
               href="https://twitter.com/zigagroselj"
               className="cursor-pointer"
+              aria-label="twitter"
             >
               <FaTwitter className="transform hover:scale-125 h-8 w-8 hover:text-sky-800" />
             </a>
-            <a href="https://github.com/polhek/ " className="cursor-pointer">
+            <a
+              href="https://github.com/polhek/ "
+              className="cursor-pointer "
+              aria-label="github"
+            >
               <FaGithub className="transform hover:scale-125 h-8 w-8 hover:text-sky-800" />
             </a>
           </div>

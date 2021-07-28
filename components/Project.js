@@ -1,10 +1,19 @@
-import { FaCode } from 'react-icons/fa';
+import { FaCode, FaEye } from 'react-icons/fa';
+import Image from 'next/image';
 
 const Project = ({ project }) => {
-  const { name, imgURL, description, stack, github } = project;
+  const { name, imgURL, description, stack, github, githubLive } = project;
   return (
     <div className="flex flex-col gap-2 rounded-lg  w-80 max-h-100 justify-between shadow-lg text-center items-center bg-sky-900 text-gray-400">
-      <img src={imgURL} alt={name} className="max-w-full mt-0 rounded-t-lg" />
+      <div className=" relative w-full h-52 ">
+        <Image
+          layout="fill"
+          src={imgURL}
+          alt={name}
+          className="mt-0 rounded-t-lg"
+        />
+      </div>
+
       <h3 className="font-bold text-white text-2xl">{name}</h3>
       <p className="p-2 text-lg">{description}</p>
       <div className="flex flex-col items-center flex-wrap justify-center gap-2">
@@ -16,13 +25,22 @@ const Project = ({ project }) => {
         </div>
       </div>
 
-      <div className="m-5 h-100 ">
+      <div className="m-5 h-100 flex gap-3">
         <a
           className="bg-red-500 flex  items-center justify-center hover:bg-white text-white hover:text-red-500 font-bold py-2 px-4 rounded-full gap-2"
           href={github}
+          aria-label="github-repository"
         >
           <FaCode />
           Code
+        </a>
+        <a
+          className="bg-red-500 flex  items-center justify-center hover:bg-white text-white hover:text-red-500 font-bold py-2 px-4 rounded-full gap-2"
+          href={githubLive}
+          aria-label="github-repository"
+        >
+          <FaEye />
+          Live
         </a>
       </div>
     </div>
