@@ -58,7 +58,7 @@ const ShortBio = () => {
             </div>
             <div className="flex flex-col justify-between lg:mr-14">
               <a
-                href="https://www.linkedin.com/in/%C5%BEiga-gro%C5%A1elj-932945b6/"
+                href="https://www.linkedin.com/in/ziga-groselj-932945b6/"
                 aria-label="LinkedIn"
               >
                 <FaLinkedin className="transform hover:scale-105 h-8 w-8 opacity-80  hover:opacity-100" />

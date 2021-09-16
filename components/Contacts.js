@@ -41,7 +41,7 @@ const Contacts = () => {
               <FaEnvelope className="transform hover:scale-125 h-8 w-8 hover:text-sky-800" />
             </a>
             <a
-              href="https://www.linkedin.com/in/%C5%BEiga-gro%C5%A1elj-932945b6/"
+              href="https://www.linkedin.com/in/ziga-groselj-932945b6/"
               className="cursor-pointer"
               aria-label="linkedIn"
             >
